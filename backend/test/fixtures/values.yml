@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  original: 9.99
+  calculated: 9.99
+
+two:
+  original: 9.99
+  calculated: 9.99

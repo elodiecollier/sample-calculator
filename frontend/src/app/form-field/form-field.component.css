@@ -1,0 +1,41 @@
+input {
+    border-radius: 40px;
+    border: 10px solid white;
+    width: 270px;
+    padding: 9px;
+    font-size: 140%;
+    text-align: center;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
+    color: #1E1E1E;
+}
+
+form {
+    align-items: center; /* Align items horizontally in the center */
+    justify-content: center;
+}
+
+button {
+    background-color: #2B00D7;
+    border: 10px #2B00D7;
+    color: white;
+    font-weight: bold;
+    border-radius: 40px;
+    width: 200px;
+    padding: 15px;
+    font-size: 110%;
+    text-align: center;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    margin-left: 50px;
+}
+
+button:hover {
+    background-color: #140062;
+}
+
+.body {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Align items horizontally in the center */
+    justify-content: center;
+}

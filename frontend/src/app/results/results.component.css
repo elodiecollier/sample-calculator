@@ -1,0 +1,12 @@
+.body {
+    display: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: #1E1E1E;
+}
+
+p {
+    font-size: 300%;
+    text-align: center;
+}

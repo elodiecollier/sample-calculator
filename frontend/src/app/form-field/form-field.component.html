@@ -1,0 +1,13 @@
+<div class="body">
+    <form [formGroup]="valueForm" (ngSubmit)="onSubmit()">
+        <div class="input">
+            <input type="number" id="title" #userInput class="form-control" formControlName="title" placeholder="Enter a value...">
+        </div>
+        <button type="submit" (click)="calculate(userInput.value)">Calculate</button>
+    </form>
+    <app-results
+        [resVal]="val"
+        [resTimesTwo]="timesTwo"
+        [resRaisedTwo]="raisedTwo"
+        ></app-results>
+</div>

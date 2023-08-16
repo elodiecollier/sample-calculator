@@ -1,0 +1,45 @@
+h1 {
+    font-size: 370%;
+    font-weight: 1100;
+    color: #1E1E1E;
+}
+
+p {
+    font-size: 200%;
+    color: #1E1E1E;
+}
+
+.welcome {
+    font-weight: 900;
+    color: #2B00D7;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    padding: 50px;
+    width: 70%;
+    justify-content: center;
+    display: flex;
+}
+
+.right {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    padding-right: 90px;
+    padding-top: 50px;
+}
+
+.text {
+    width: 25%;
+}
+
+.form {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
